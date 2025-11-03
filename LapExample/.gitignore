@@ -1,0 +1,25 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore VS/JetBrains project files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore environment files
+.env
