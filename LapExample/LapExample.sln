@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LapExample", "LapExample\LapExample.csproj", "{ADE17DBD-14AA-4811-9BE7-D30F34ACC3A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LapExample04", "LapExample04\LapExample04.csproj", "{ADE17DBD-14AA-4811-9BE7-D30F34ACC3A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
