@@ -1,8 +1,8 @@
 ﻿using System.IO.MemoryMappedFiles;
 using System.Text;
-
-namespace MMF;
-
+using System; using System.IO;
+namespace MMF {
+    
 public class Program
 {
     public static void Main(string[] args)
@@ -44,4 +44,5 @@ public class Program
             }
         }
     }
+  }
 }
