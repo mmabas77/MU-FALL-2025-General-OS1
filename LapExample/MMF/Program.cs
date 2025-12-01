@@ -33,6 +33,8 @@ public class Program
                 // Write starting at byte position 30
                 accessor.WriteArray(30, dataBytes, 0, dataBytes.Length);
     
+                Console.ReadLine();
+                
                 // Read 2 bytes starting at position 34
                 byte[] readData = new byte[2];
                 accessor.ReadArray(34, readData, 0, 2);

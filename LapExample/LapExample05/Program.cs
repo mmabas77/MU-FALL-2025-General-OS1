@@ -8,7 +8,7 @@ class Program
     {
         ProcessStartInfo startInfo = new ProcessStartInfo
         {
-            FileName = "/bin/bash",  // 
+            FileName = "/bin/bash",  // Windows
             UseShellExecute = false,
             RedirectStandardInput = true,
             RedirectStandardOutput = true,
@@ -37,6 +37,5 @@ class Program
             Console.WriteLine("\n=== Errors ===");
             Console.WriteLine(errors);
         }
-        
     }
 }
